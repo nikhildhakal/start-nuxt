@@ -1,6 +1,7 @@
 <template>
     <div>
-        Typography
+        <AppHeader />
         <slot />
+        <AppFooter />
     </div>
 </template>
