@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Rowdies';
+    src: url('/fonts/Rowdies-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Rowdies', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}

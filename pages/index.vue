@@ -1,11 +1,12 @@
 <template>
 	<div>
-		<h1>Welcome to Nuxt from index.vue</h1>
-		<Typography>
-			<h1>Heading 1</h1>
-			<h2>Heading 2</h2>
-			<h3>Heading 3</h3>
-			<h4>Heading 4</h4>
-		</Typography>
+		<h1 class="animate__animated animate__bounce">Welcome to Nuxt from index.vue</h1>
+		<figure class="animate__animated animate__headShake animate__delay-2s">
+			<!-- <img src="/img/logo.png" alt="Discover Me" /> -->
+			<img src="~/assets/img/logo.png" alt="Discover Me" />
+		</figure>
 	</div>
 </template>
+<script>
+import 'animate.css';
+</script>
